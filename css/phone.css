@@ -1,0 +1,159 @@
+.content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    border-radius: 300px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-shadow: -1px 0.7px 45.2px 18.9px #a9a9a9;
+}
+
+section::before{
+    background:#ededed url('../img/back9.jpg')no-repeat center center/cover ;
+    position: absolute;
+    width: 100%;
+    height: 170%;
+    content: " ";
+    z-index: -1;
+    opacity: 0.95;
+}
+
+.btn{
+    margin: 15px 111px;
+}
+
+/* .nav-bar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 55px;
+    padding-left:  5px;
+    width: 100%;
+} */
+
+.nav-bar{
+    padding-right: 0px;
+}
+
+.nav-bar li a:hover{
+    background-color: #3c3c3c;
+    border-radius: 20px;
+}
+
+.logo{
+    padding: 3px 8px;
+}
+
+
+.name{
+    padding: 3px 4px;
+}
+
+.name p{
+    /* padding: 20px ;
+    padding-left: 60px; */
+    /* padding-right: 39px; */
+    font-size: 20px;
+}
+
+.nav-bar li a{
+    font-family: 'Nunito Sans', sans-serif; 
+    text-decoration: none;
+    color: white;
+    font-size: 21.5px;
+}
+
+.links{
+    padding-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3c3c3c;
+    align-items: center;
+    list-style: none;
+    padding-left: 6.8px;
+    padding-top: 92.9px;
+    height: 145px;
+    width: 100%;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.nav-bar li {
+    padding: 11.4px 10px;
+}
+.navbar {
+    height: 65px;
+}
+.heading {
+    padding: 50px 5px;
+    width:370px;
+}
+
+.disc{
+    width: 320px;
+}
+
+.myHobby{
+    padding-top: 29px;
+    padding-bottom: 0px;
+}
+
+/* .links{
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+} */
+.hobby h1 {
+    padding: 0px 0px;
+    width: 144.9px;
+}
+
+
+.burgur{
+    display: block;
+}
+/* my hobby */
+.hobbycontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+
+/* my skills */
+.container{
+    background-color: #64606026;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    width: 330px;
+    height: 21px;
+
+}
+.webdev{width: 40%; background-color: #04AA6D; height: 20px; color: white ;font-size: 20px;}
+.DSA{width: 35%; background-color: #2196F3; height: 20px; color: white ;font-size: 20px;}
+.cpp{width: 70%; background-color: #ef643f; height: 20px; color: white ;font-size: 20px;}
+.py{width: 25%; background-color: #9c61f1; height: 20px; color: white ;font-size: 20px;}
+.block{width:35%; background-color: #fbd415; height: 20px; color: white ;font-size: 20px;}
+.str{width: 40%; background-color: #5b59ef; height: 20px; color: white ;font-size: 20px;}
+
+.skils p{
+    font-size: 25px;
+}
+
+.v-class-resp{
+    opacity: 0;
+    height: 100px;
+    width :50px;
+}
+

@@ -1,0 +1,102 @@
+.name{
+    padding: 20px 50px;
+}
+
+.nav-bar li {
+    padding: 15.7px 9.9px;
+}
+
+.links{
+    padding-left: 30px;
+}
+
+.nav-bar li a {
+    padding: 3.4px 10.4px;
+}
+
+/* .content img{
+    width: 300px;
+    border-radius: 300px;
+    margin: 20px;
+    box-shadow: -1px 0.7px 45.2px 18.9px #a9a9a9;
+} */
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right:  50px;
+    height: 55px;
+    width: 100%;
+}
+
+.disc {
+    font-size: medium;
+    padding: 30px 17px;
+    width: 335.6px;
+}
+
+.content img {
+    width: 276.1px;
+    border-radius: 300px;
+    margin: -3.8px;
+    box-shadow: -1px 0.7px 45.2px 18.9px #a9a9a9;
+}
+
+/* MY HOBBY */
+
+.img-hob {
+    width: 150px;
+}
+/* .hobby{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+section::before{
+    background:#ededed url('../img/back9.jpg')no-repeat center center/cover ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    z-index: -1;
+    opacity: 0.95;
+}
+
+.hobby h1 {
+    padding: 25px 30px;
+    width: 90px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hobbycontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-hob img {
+    width: 60.8px;
+    padding: 28.8px 32.9px;
+}
+
+/* my skills */
+.container{
+    background-color: #64606026;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    width: 450px;
+    height: 26px;
+
+}
+.webdev{width: 40%; background-color: #04AA6D; height: 26px; color: white ;}
+.DSA{width: 35%; background-color: #2196F3; height: 26px; color: white ;}
+.cpp{width: 70%; background-color: #ef643f; height: 26px; color: white ;}
+.py{width: 25%; background-color: #9c61f1; height: 26px; color: white ;}
+.block{width:35%; background-color: #fbd415; height: 26px; color: white ;}
+.str{width: 40%; background-color: #5b59ef; height: 26px; color: white ;}
+
